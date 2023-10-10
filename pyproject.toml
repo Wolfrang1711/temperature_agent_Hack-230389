@@ -2,7 +2,7 @@
 name = "temperature-alert-agent"
 version = "0.1.0"
 description = ""
-authors = ["Wolfrang1711"]
+authors = ["Wolfrang1711, RomalaMishra"]
 
 [tool.poetry.dependencies]
 python = ">=3.8.1,<3.12"
@@ -21,6 +21,8 @@ uvicorn = "^0.20.0"
 aiohttp = "^3.8.3"
 cosmpy = "^0.9.1"
 websockets = "^10.4"
+flask = "^3.0.0"
+python-dotenv = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 aioresponses = "^0.7.4"

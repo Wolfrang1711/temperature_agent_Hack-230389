@@ -9,7 +9,7 @@ from agents.temperature_query.temperature_query import agent as query_agent
 query_location = input("Enter the location for temperature query: ")
 query_min_temperature = float(input("Enter the minimum acceptable temperature: "))
 query_max_temperature = float(input("Enter the maximum acceptable temperature: "))
-query_period = float(input("Enter the query period in seconds (e.g., 3600 for 1 hour): "))
+query_period = float(3600)
 
 # Define an interval handler for sending periodic temperature queries
 @query_agent.on_interval(period=query_period, messages=QueryUserRequest)
