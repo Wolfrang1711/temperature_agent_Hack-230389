@@ -19,13 +19,7 @@ Before starting, you'll need the following:
    git clone https://github.com/Wolfrang1711/hackAI_temp_agent.git
    ```
 
-### Step 3: Open New Terminal in your VS Code and run this
-
-```bash
-   poetry install
-   ```
-
-### Step 4: Set up .env file
+### Step 3: Set up .env file
 To run the demo, you need API key from:
 
 [WeatherAPI](https://www.weatherapi.com/) &rarr;
@@ -43,10 +37,13 @@ Once you have the weather key, create a .env file in the hackAI_temp_agent/src d
 ```bash
    export WEATHER_API_KEY="{GIVE THE API KEY}"
    ```
-To use the environment variables from .env and install the project:
+
+### Step 4: To use the environment variables from .env and install the project:
+Open New Terminal,
+
 ```bash
    cd src
-   source .env
+   .env
    poetry install
    ```
 
