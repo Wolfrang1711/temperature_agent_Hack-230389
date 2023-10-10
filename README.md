@@ -50,7 +50,7 @@ To use the environment variables from .env and install the project:
    poetry install
    ```
 
-### Step 5: Open powershell
+### Step 5: Navigate to shell
 ```bash
    poetry shell
    ```
