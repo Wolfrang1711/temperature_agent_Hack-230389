@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The TemperatureX Web Application is a Flask-based Temperature Alert Agent built using Fetch.AI's uAgent library that provides a simple interface for users to input their desired location and temperature range and then displays real-time temperature status updates on the webpage, i.e., sends alert/notification to the user when the current temperature in their chosen location goes below the minimum or above the maximum threshold they've set. 
+The TemperatureX Web Application is a Temperature Alert Agent built using Fetch.AI's uAgent library that provides a simple interface for users to input their desired location and temperature range and then displays real-time temperature status updates on the webpage, i.e., sends alert/notification to the user when the current temperature in their chosen location goes below the minimum or above the maximum threshold they've set. 
 
 ## How to Run the Project
 
